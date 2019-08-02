@@ -1,0 +1,113 @@
+
+
+.fun{
+    text-align: center;
+    color: red;
+    font-size: 20pt;
+    
+
+}
+
+p{
+    text-align: center;
+    vertical-align: center;
+}
+
+.funn{
+  text-align: center;
+  color: rgb(13, 38, 95);
+  font-size: 32pt;
+}
+
+.wholepage{
+background: lightgrey;
+}
+
+h1{
+  
+  padding: 5px;
+  text-align: left;
+}
+
+
+.egg{
+  font-size: 10pt;
+  right: -555%;
+  top: -50px;
+  position: relative;
+  display: inline-block;
+  padding: 1px;
+  color: rgb(155, 138, 37);
+  
+}
+
+.ham{
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+}
+
+@media screen and (max-width: 600px) {
+  .dropdown a:not(:first-child) {display: none;}
+  .dropdown a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .dropdown.responsive {position: relative;}
+  .dropdown.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .dropdown.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+.picture{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.foot {
+  color: firebrick;
+}
+
+
+@media (min-width: 100px)
+{
+  .picture{
+    width: 100px;
+  }
+}
+
+@media (min-width: 768px) {
+  .picture {
+      width: 150px;
+  }
+}
+
+@media (min-width: 992px) {
+  .picture {
+      width: 200px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .picture {
+      width: 250px;
+  }
+}
+
+
+@media (min-width: 992px){
+.img-fluid{
+  margin-left: 80px;
+}}

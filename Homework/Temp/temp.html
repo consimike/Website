@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Temperature</title>
+  <link rel="icon" href="https://cdn0.iconfinder.com/data/icons/opensourceicons/32/cloud-outline.png">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body class = wholepage>
+      <nav class="navbar navbar-expand-sm navbar-light sticky-top" style="background-color: #e3f2fd;">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="../Home_page/index.html#"> <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXrJpWaz52Mk6n19EvNDwpEpneSMTGCSlJ_9J2Miv1zvxYVf8KOw" 
+                width = 32px height = 32px> </a>
+            </div>
+            <button class="navbar-toggler navbar"  data-toggle="collapse" data-target="#collapsingNavbarXs">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse navbar-right" id="collapsingNavbarXs">
+              <ul class="nav navbar-nav  navbar-right ">
+                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Plots </a>
+                  <ul class="dropdown-menu">
+                  <li><a href="../Humid/humid.html">Humidity</a></li>
+                  <li><a href="../Temp/temp.html">Temperature</a></li>
+                  <li><a href="../cloud/cloud.html">Cloudiness</a></li>
+                  <li><a href="../Wind/wind.html">Wind</a></li>
+                </ul>
+              </li>
+              <li><a href="../Comparison/comparison.html">Comparison</a></li>
+              <li><a href="../Table/table.html"><span class="glyphicon glyphicon-log-in"></span> Data</a></li>
+            </ul>
+          </div>
+          </div>
+        </nav>
+        <div class = container-fluid>
+            <div class = "row">
+                <div class = "col-md-6">
+                  <p class = "fun">
+                    <b>Temperature </b>
+                  </p>
+                    <p> As you can see by the graph below, latitude has a lot to do with temperature. As you approach
+                      the equator the temperature increases. 
+                    </p>
+                    <img src = ..\temp.png 
+                    class="img-fluid" alt="Responsive image">
+                </div>
+        
+            
+              <div class = "col 6 col-sm-4 col-md-6">
+                      <p class = funn>
+                        Visualizations
+                      </p>
+                  <div class = row>
+                    <div class = "col 3 col-sm-3 col-md-6">
+                        <a target = _break href="../cloud/cloud.html">
+                        <img src="..\cloud.png" 
+                        alt="Latitude vs Cloudiness" class = "picture">
+                        </a>
+                    </div>
+        
+                    <div class = "col 3 col-sm-3 col-md-6">
+                          <a target = _break href="../Temp/temp.html">
+                          <img src="..\temp.png" 
+                          alt="Latitude vs Temperature" class = "picture">
+                          </a>
+                    </div>
+                  </div>
+                  
+        
+                  <div class = row>
+                    <div class = "col 3 col-sm-3 col-md-6">
+                      <a target = _break href="../Humid/humid.html">
+                      <img src="..\humid.png" 
+                      alt="Latitude vs Humidity" class = "picture">
+                      </a>
+                    </div>
+                    <div class = "col 3 col-sm-3 col-md-6">
+                      <a target = _break href="../Wind/wind.html">
+                      <img src="..\wind.png" 
+                      alt="Latitude vs Wind" class = "picture">
+                      </a>
+                    </div>
+                    </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+        
+        
+        
+  </body>
+          <footer class="page-footer font-small blue pt-4">
+        
+                <div class="container-fluid text-center text-md-left">
+              
+                  <div class="row">
+              
+                    <div class="col-md-6 mt-md-0 mt-3">
+        
+                      <p>Thanks for viewing my website, here are a some links to random stuff:</p>
+              
+                    </div>
+              
+                    <hr class="clearfix w-100 d-md-none pb-3">
+              
+                    <div class="col-md-3">
+              
+                      <h5 class="text-uppercase"> <strong>Links</strong></h5>
+              
+                      <ul class="list-unstyled">
+                        <li>
+                          <a target = _break href="https://www.reddit.com/" class = foot>Reddit</a>
+                        </li>
+                        <li>
+                          <a target = _break href="https://www.microsoft.com/en-us/"class = foot>Microsoft</a>
+                        </li>
+                        <li>
+                          <a target = _break href="https://finance.yahoo.com/"class = foot>Yahoo Finance</a>
+                        </li>
+                        <li>
+                          <a target = _break href="https://fortune.com/fortune500/visualizations/?iid=recirc_f500landing-zone1"class = foot>
+                            Interactive Fortune 500</a>
+                        </li>
+                      </ul>
+                    </div>     
+                  </div>    
+                </div>  
+        
+                <div class="text-center py-3">
+                  <a href="https://www.linkedin.com/"class = foot >LinkedIn</a>
+                </div>
+              
+          </footer>
+  </html> 
